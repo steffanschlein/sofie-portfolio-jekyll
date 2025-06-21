@@ -1,7 +1,7 @@
 ---
 layout: layout
 ---
-<a href="/"><img src="/assets/images/back.png" width="30"></a>
+<a href="{{ '/' | relative_url }}"><img src="{{ '/assets/images/back.png' | relative_url }}" width="30"></a>
 
 <h1>{{ page.project_title }}</h1>
 <p class="fw-light lead">{{ page.project_subtitle }}</p>
@@ -11,7 +11,7 @@ layout: layout
 <div class="row">
   {% for image in page.project_images %}
     <div class="col-12 col-md-6 py-3">
-      <img src="{{ image.src }}" width="100%">
+      <img src="{{ image.src | relative_url }}" width="100%">
     </div>
   {% endfor %}
 </div>

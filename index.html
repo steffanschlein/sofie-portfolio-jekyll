@@ -7,8 +7,8 @@ layout: layout
 <div class="row">
   {% for project in projects %}
     <div class="col-12 col-md-6 py-3 image-with-overlay">
-      <a href="{{ project.url }}" class="link-dark link-underline-opacity-0">
-        <img src="{{ project.project_images.first.src }}" width="100%">
+      <a href="{{ project.url | relative_url }}" class="link-dark link-underline-opacity-0">
+        <img src="{{ project.project_images.first.src | relative_url }}" width="100%">
         <div class="image-overlay">
           <p class="fs-3 fw-medium">{{ project.project_title }}</p>
           <p class="fw-light">{{ project.project_subtitle }}</p>
