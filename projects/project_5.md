@@ -2,6 +2,7 @@
 layout: project
 project_title: Karte mit Liebe
 project_subtitle: Grafikdesign
+project_thumbnail: /assets/images/project_5.png
 project_images:
   - src: /assets/images/project_5.png
   - src: /assets/images/project_placeholder.png

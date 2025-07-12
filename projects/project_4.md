@@ -2,6 +2,7 @@
 layout: project
 project_title: Spicebar
 project_subtitle: Verpackungsdesign
+project_thumbnail: /assets/images/project_4.png
 project_images:
   - src: /assets/images/project_4.png
   - src: /assets/images/project_placeholder.png

@@ -2,6 +2,7 @@
 layout: project
 project_title: Coole Lampe
 project_subtitle: Produktdesign
+project_thumbnail: /assets/images/project_3.png
 project_images:
   - src: /assets/images/project_3.png
   - src: /assets/images/project_placeholder.png

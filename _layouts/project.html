@@ -1,17 +1,26 @@
 ---
 layout: layout
 ---
-<a href="{{ '/' | relative_url }}"><img src="{{ '/assets/images/back.png' | relative_url }}" width="30"></a>
 
-<h1>{{ page.project_title }}</h1>
-<p class="fw-light lead">{{ page.project_subtitle }}</p>
+<div class="container">
+  <div class="col-lg-10 mx-auto">
+    <h1 class="pt-2">{{ page.project_title }}</h1>
+    <p class="fw-light lead">{{ page.project_subtitle }}</p>
 
-{{ content }}
-
-<div class="row">
-  {% for image in page.project_images %}
-    <div class="col-12 col-md-6 py-3">
-      <img src="{{ image.src | relative_url }}" width="100%">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        {{ content }}
+      </div>
     </div>
-  {% endfor %}
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3" data-masonry='{"percentPosition": true }'>
+      {% for image in page.project_images %}
+        <div class="py-3">
+          <img src="{{ image.src | relative_url }}" width="100%">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>

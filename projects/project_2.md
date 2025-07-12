@@ -2,6 +2,7 @@
 layout: project
 project_title: Fotoausstellung
 project_subtitle: Ausstellungsgestallung
+project_thumbnail: /assets/images/project_2.png
 project_images:
   - src: /assets/images/project_2.png
   - src: /assets/images/project_placeholder.png

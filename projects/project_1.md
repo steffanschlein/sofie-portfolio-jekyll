@@ -2,9 +2,10 @@
 layout: project
 project_title: wertstoff
 project_subtitle: Produktdesign / Grafikdesign / Textildesign
+project_thumbnail: /assets/images/project_1.png
 project_images:
   - src: /assets/images/project_1.png
-  - src: /assets/images/project_placeholder.png
+  - src: /assets/images/project_placeholder_landscape.png
   - src: /assets/images/project_placeholder.png
   - src: /assets/images/project_placeholder.png
 ---
