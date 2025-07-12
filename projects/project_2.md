@@ -6,8 +6,8 @@ project_thumbnail: /assets/images/project_2.png
 project_images:
   - src: /assets/images/project_2.png
   - src: /assets/images/project_placeholder.png
-  - src: /assets/images/project_placeholder.png
-  - src: /assets/images/project_placeholder.png
+  - src: /assets/images/project_placeholder_landscape.png
+  - src: /assets/images/project_placeholder_landscape.png
 ---
 Wertevermittlung, Austausch & Ästhetik vereint auf Verschnittresten der Westfalenstoffe AG.
 
