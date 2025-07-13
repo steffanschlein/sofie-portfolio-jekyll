@@ -2,11 +2,19 @@
 layout: project
 project_title: Ostfriesen Durak
 project_subtitle: Grafikdesign I Produktdesign
-project_thumbnail: /assets/images/project_7.png
+project_description: Mehr als nur ein Kartenspiel - es ist eine Hommage an die raue Schönheit Ostfrieslands und ein kreatives Projekt, das Leidenschaft für Produktdesign, Illustration und eine Brücke zwischen zwei Kulturen verbindet. 
+project_thumbnail: /assets/images/durak_01.png
 project_images:
-  - src: /assets/images/project_7.png
-  - src: /assets/images/karten_01.jpg
-  - src: /assets/images/karten_02.jpg
+  - src: /assets/images/durak_02.png
+  - src: /assets/images/durak_01.png
+  - src: /assets/images/durak_03.png
+  - src: /assets/images/durak_07.jpg
+  - src: /assets/images/durak_04.jpg
+  - src: /assets/images/durak_08.jpg
+  - src: /assets/images/durak_05.png
+  - src: /assets/images/durak_06.png
+  - src: /assets/images/durak_09.png
+  
 
 
 ---
@@ -20,4 +28,4 @@ Ob in geselliger Runde mit Freunden oder in familiärer Atmosphäre: Ostfriesen 
 
 Durak (Дурaк) ist ein traditionelles russisches Kartenspiel für 2–6 Spieler, das mit 36 Karten (6–Ass) gespielt wird. Ziel ist, alle Karten loszuwerden; der letzte Spieler mit Karten verliert und wird „Durak“ („Dummkopf“) genannt. 
 
-Fotos: Sofie Maria Schlein
+Fotos: Sofie Maria Schlein - 2024

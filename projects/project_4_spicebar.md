@@ -2,6 +2,7 @@
 layout: project
 project_title: Spicebar
 project_subtitle: Verpackungsdesign
+project_description: Ein Verpackungskonzept aus Karton für Gewürz-Sets. Nach dem Kauf kann die Verpackung zu einem erweiterbaren Gewürzregal, oder als Servierständer umfunktioniert werden.
 project_thumbnail: /assets/images/spicebar_02.jpg
 project_images:
   - src: /assets/images/spicebar_01.png
@@ -24,4 +25,4 @@ Dieses Verpackungskonzept wurde beim Pro Carton Young Designers Award 2023 einge
 
 Dieses Projekt ist in Gruppenarbeit mit Leonie Bornhöft und Irina Kozlova entstanden. 
 
-Fotos: Gruppe
+Fotos: Gruppe - 2023

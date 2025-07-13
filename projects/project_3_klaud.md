@@ -2,6 +2,7 @@
 layout: project
 project_title: Klaud
 project_subtitle: Produktdesign I 3D Druck
+project_description: Eine modulare Lampe, die Komposition und geometrische Formen zu einem einzigartigen und kreativen Design vereinen. Den Ausgangspunkt bilden besonderen 3D-Drucktechniken namens „Infill“. 
 project_thumbnail: /assets/images/klaud_01.jpg
 project_images:
   - src: /assets/images/klaud_09.jpg
@@ -23,4 +24,4 @@ Auf diese Weise lässt sich die Klaud nach individuellen Bedürfnissen anpassen 
 
 Dieses Projekt ist in Gruppenarbeit mit Jule Schurek und Anika Kubirski entstanden. 
 
-Fotos: Sofie Maria Schlein
+Fotos: Sofie Maria Schlein - 2024

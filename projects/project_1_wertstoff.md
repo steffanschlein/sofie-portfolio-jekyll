@@ -2,7 +2,7 @@
 layout: project
 project_title: Wertstoff
 project_subtitle: Produktdesign I Grafikdesign
-project_description: Wertevermittlung, Austausch & Ästhetik vereint auf Verschnittresten der Westfalenstoffe AG. wertstoff ist ein Stück Stoff, ein Tischgedeck, ein Wandbild und das, was du daraus machst! 
+project_description: Wertevermittlung, Austausch & Ästhetik vereint auf Verschnittresten der Westfalenstoffe AG. Wertstoff ist ein Stück Stoff, ein Tischgedeck, ein Wandbild und das, was du daraus machst! 
 project_thumbnail: /assets/images/wertstoff_09.jpg
 project_images:
   - src: /assets/images/wertstoff_03.jpg
@@ -25,4 +25,4 @@ Mit Wertstoff haben wir das alte Muster neu aufleben lassen. Die per Siebdruck a
 
 Dieses Projekt ist in Gruppenarbeit mit Lia Hintz, Leonie Bornhöft und Justus Plaputta entstanden.
 
-Fotos: Leonie Bornhöft
+Fotos: Leonie Bornhöft - 2023

@@ -2,17 +2,17 @@
 layout: project
 project_title: DJF Fotografieausstellung
 project_subtitle: Ausstellungsdesign
-project_description: 
+project_description: Der Deutsche Jugendfotopreis zeichnet seit über 60 Jahren junge Talente in der Fotografie aus und ist damit der größte Bundeswettbewerb in der Fotografie in Deutschland. In 2024 ist die Ausstellung mit neuem Konzept präsentiert worden, dass von Studierenden der Münster School of Design erarbeitet wurde. 
 project_thumbnail: /assets/images/djf_06.jpg
 project_images:
   - src: /assets/images/djf_01.jpg
-  - src: /assets/images/djf_02.jpg
-  - src: /assets/images/djf_03.jpg
-  - src: /assets/images/djf_04.jpg
-  - src: /assets/images/djf_05.jpg
-  - src: /assets/images/djf_06.jpg
-  - src: /assets/images/djf_07.jpg
   - src: /assets/images/djf_08.jpg
+  - src: /assets/images/djf_06.jpg
+  - src: /assets/images/djf_03.jpg
+  - src: /assets/images/djf_02.jpg
+  - src: /assets/images/djf_04.jpg
+  - src: /assets/images/djf_07.jpg
+  - src: /assets/images/djf_05.jpg
   - src: /assets/images/djf_09.jpg
   - src: /assets/images/djf_10.jpg
   - src: /assets/images/djf_11.jpg
@@ -26,4 +26,4 @@ Zu sehen war die Ausstellung bis zum 6. Oktober 2024 im renommierten NRW-Forum D
 
 Die Studierenden haben die gesamte Ausstellung von der Konzeption bis zur Umsetzung eigenständig realisiert - von Modellbau und Grafikdesign über Möbelbau bis hin zur Raumgestaltung. Innerhalb von nur zwei Wochen wurde die Ausstellung vor Ort fertig aufgebaut. 
 
-Fotos: Thekla Ehling 
+Fotos: Thekla Ehling - 2024
