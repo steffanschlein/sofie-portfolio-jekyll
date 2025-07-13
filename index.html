@@ -4,19 +4,23 @@ layout: layout
 
 <section class="bg-black text-white w-100">
   <div class="row mx-0">
-    <div class="col text-center">
-      <img src="{{ '/assets/images/logo_schwarz.png' | relative_url}}" width="150">
+    <div class="col text-center pt-5"> 
+      <img src="{{ '/assets/images/logo_weiß.png' | relative_url}}" width="150">
     </div>
   </div>
+
+  <div class="row mx-0 my-5">
+  
+  </div>
+
+
+  <h1 class="text-center display-4 fw-semibold">Portfolio</h1>
 
   <div class="row mx-0 my-4">
     <div class="col-12 mx-auto text-center">
-      <p class="fs-5">Hallo, ich bin Sofie!</p>
+      <p class="fs-4">2025</p>
     </div>
   </div>
-
-
-  <h1 class="text-center">Portfolio</h1>
 
   <!-- Negative bottom margin to hide potential 1 pixel horizontal black line -->
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-bottom: -2px;">
@@ -25,6 +29,13 @@ layout: layout
     </path>
   </svg>
 </section>
+
+
+<div class="row mx-0 my-5">
+  <div class="col-12 mx-auto text-center">
+    <p class="fs-5">Produktdesign I Verpackungsdesign I Ausstellungsdesign <br> 3D-Druck I Fotografie I Grafikdesign </p>
+  </div>
+</div>
 
 <div class="container">
   <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 px-4 col-lg-10 mx-auto mb-4">
@@ -38,7 +49,7 @@ layout: layout
           <div class="card-body">
             <h5 class="card-title">{{ project.project_title }}</h5>
             <h6 class="card-subtitle fw-light mb-2">{{ project.project_subtitle }}</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+            <p class="card-text">{{ project.project_description }} </p>
           </div>
           <div class="card-footer bg-transparent border-top-0">
             <a href="{{ project.url | relative_url }}" class="btn btn-primary card-link">Mehr erfahren</a>
