@@ -13,10 +13,10 @@ layout: layout
       </div>
     </div>
 
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 mt-4" data-masonry='{"percentPosition": true }'>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 mt-4 masonry">
       {% for image in page.project_images %}
         <div class="py-3">
-          <img src="{{ image.src | relative_url }}" width="100%">
+          <img src="{{ image.src | relative_url }}" class="img-fluid">
         </div>
       {% endfor %}
     </div>
@@ -24,3 +24,9 @@ layout: layout
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+
+<script>
+  window.addEventListener("load", (event) => {
+    new Masonry( '.masonry', {percentPosition: true});
+  });
+</script>
