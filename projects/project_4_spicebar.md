@@ -14,6 +14,7 @@ project_images:
   - src: /assets/images/spicebar_11.jpg
   - src: /assets/images/spicebar_08.jpg
   - src: /assets/images/spicebar_17.jpg
+  - src: /assets/images/spicebar_18.png
 ---
 Die Spicebar ist ein Verpackungskonzept aus Karton für Gewürz-Sets. 
 

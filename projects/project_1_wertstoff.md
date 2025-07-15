@@ -16,6 +16,7 @@ project_images:
   - src: /assets/images/wertstoff_08.jpg
   - src: /assets/images/wertstoff_11.jpg
   - src: /assets/images/wertstoff_07.jpg
+  - src: /assets/images/wertstoff_12.png
 ---
 Wertevermittlung, Austausch & Ästhetik vereint auf Verschnittresten der Westfalenstoffe AG.
 

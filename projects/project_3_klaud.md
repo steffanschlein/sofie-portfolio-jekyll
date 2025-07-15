@@ -13,6 +13,7 @@ project_images:
   - src: /assets/images/klaud_06.jpg
   - src: /assets/images/klaud_07.jpg
   - src: /assets/images/klaud_03.jpg
+  - src: /assets/images/klaud_10.png
 ---
 Klaud ist eine modulare Lampe, die Komposition und geometrische Formen zu einem einzigartigen und kreativen Design vereinen. 
 
