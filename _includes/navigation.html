@@ -1,20 +1,30 @@
-<nav class="navbar navbar-expand-sm shadow fixed-top bg-black" data-bs-theme="dark">
+<nav class="navbar navbar-expand-sm shadow fixed-top navbar-dark bg-black">
   <div class="container">
-    <div class="col col-lg-10 offset-lg-1 d-flex">
-      <a class="navbar-brand flex-grow-1" href="{{ '/' | relative_url }}">
-        <img src="{{ '/assets/images/logo_weiß.png' | relative_url}}" alt="Logo" height="32">
-        <span class="ms-2">Sofie Maria Schlein</span>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          {% for item in site.data.navigation %}
-            <li class="nav-item"><a class="nav-link {% if page.url == item.link %}active{% endif %}" href="{{ item.link | relative_url }}">{{ item.name }}</a></li>
-          {% endfor %}
-        </ul>
+    <div class="row w-100">
+      <div class="col-12 col-lg-10 offset-lg-1 d-flex align-items-center justify-content-between">
+        
+        <a class="navbar-brand" href="{{ '/' | relative_url }}">
+          <img src="{{ '/assets/images/logo_weiß.png' | relative_url}}" alt="Logo" height="32">
+          <span class="ms-2">Sofie Maria Schlein</span>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            {% for item in site.data.navigation %}
+              <li class="nav-item">
+                <a class="nav-link {% if page.url == item.link %}active{% endif %}" href="{{ item.link | relative_url }}">
+                  {{ item.name }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+
       </div>
     </div>
   </div>
