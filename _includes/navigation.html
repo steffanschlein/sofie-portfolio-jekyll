@@ -1,31 +1,26 @@
 <nav class="navbar navbar-expand-sm shadow fixed-top navbar-dark bg-black">
-  <div class="container">
-    <div class="row w-100">
-      <div class="col-12 col-lg-10 offset-lg-1 d-flex align-items-center justify-content-between">
-        
-        <a class="navbar-brand" href="{{ '/' | relative_url }}">
-          <img src="{{ '/assets/images/logo_weiß.png' | relative_url}}" alt="Logo" height="32">
-          <span class="ms-2">Sofie Maria Schlein</span>
-        </a>
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            {% for item in site.data.navigation %}
+    <div class="container">
+        <div class="col-12 col-lg-10 offset-lg-1 d-sm-inline-flex">
+          <a class="navbar-brand" href="{{ '/' | relative_url }}">
+            <img src="{{ '/assets/images/logo_weiß.png' | relative_url}}" alt="Logo" height="32">
+            <span class="ms-2">Sofie Maria Schlein</span>
+          </a>
+          
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarsExample07">
+            <ul class="navbar-nav ms-sm-auto mb-2 mb-lg-0">
+              {% for item in site.data.navigation %}
               <li class="nav-item">
                 <a class="nav-link {% if page.url == item.link %}active{% endif %}" href="{{ item.link | relative_url }}">
                   {{ item.name }}
                 </a>
               </li>
-            {% endfor %}
-          </ul>
+              {% endfor %}
+            </ul>
+          </div>
         </div>
-
-      </div>
     </div>
-  </div>
-</nav>
+  </nav>
